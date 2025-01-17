@@ -2,9 +2,9 @@ Basic lwIP based project generated using CubeMX GUI
 This code only initializes the inbuilt Ethernet peripheral
 STM32F429/STM32F439 chip, the PHY chip LAN8792, FreeRTOS
 and lwIP. After this the board can be connected to Ethernet.
-and we can use ping command to test the connectivity.
+Then we can use ping command to test the connectivity.
 However this code does not contains any other communication
-code like TCP/UPD server or client code but it can be used
+code like TCP/UDP server or client code but it can be used
 as a base for such codes and in latter lectures I will show
 you how to write such codes.
 
